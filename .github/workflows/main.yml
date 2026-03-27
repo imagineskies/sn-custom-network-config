@@ -38,4 +38,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: standardnotes-debug
-          path: packages/mobile/android/app/build/outputs/apk/debug/*.apk
+          path: packages/mobile/android/**/*.apk
